@@ -1,0 +1,14 @@
+$body-bg: #bdc3c7;
+$navbar-default-bg: #FFF;
+$link-color-hover:
+	rgba(85, 85, 85, .3);
+  :hover, :focus, :active {
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+    color: darken(#777, 50%);
+  }
+
+
+@import 'bootstrap';
