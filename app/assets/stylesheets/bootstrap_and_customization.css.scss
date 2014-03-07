@@ -1,14 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
 $body-bg: #bdc3c7;
 $navbar-default-bg: #FFF;
-$link-color-hover:
-	rgba(85, 85, 85, .3);
-  :hover, :focus, :active {
+$font-family-sans-serif: 'Raleway','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-default-brand-color: #c0392b;
+
+@import 'bootstrap';
+
+.navbar-nav > li > a:hover {
+	color: #ecf0f1;
+}
+
+.navbar-right li:hover {
+	background-color: #34495e;
+  &:hover, &:focus, &:active {
   -webkit-transition-delay: 0s;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease;
-    color: darken(#777, 50%);
+  a {
+  color: white;
   }
+  }
+}
 
+.center {
+     text-align: center;
+}
 
-@import 'bootstrap';
+.navbar-brand {
+     font-weight: bold;
+}
