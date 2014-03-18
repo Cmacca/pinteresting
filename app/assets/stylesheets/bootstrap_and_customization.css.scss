@@ -10,11 +10,11 @@ $navbar-default-brand-color: #c0392b;
 @import 'bootstrap';
 
 .navbar-nav > li > a:hover {
-	color: #ecf0f1;
+  color: #ecf0f1;
 }
 
 .navbar-right li:hover {
-	background-color: #34495e;
+  background-color: #34495e;
   &:hover, &:focus, &:active {
   -webkit-transition-delay: 0s;
   -webkit-transition-duration: 0.5s;
